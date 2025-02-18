@@ -1,0 +1,17 @@
+name: deeprl # Replace with your environment name
+channels:
+  - defaults
+  - conda-forge  # Optional, but recommended if some packages are only available on conda-forge
+dependencies:
+  - filelock==3.16.1
+  - fsspec==2024.10.0
+  - imageio==2.36.0
+  - jinja2==3.1.4
+  - markupsafe==3.0.2
+  - mpmath==1.3.0
+  - networkx==3.4.2
+  - numpy==2.1.3
+  - pillow==11.0.0
+  - sympy==1.13.1
+  - pytorch==2.5.1  # Often 'torch' is referred to as 'pytorch' in conda
+  - typing_extensions==4.12.2
